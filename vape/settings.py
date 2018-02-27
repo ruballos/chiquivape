@@ -25,7 +25,7 @@ SECRET_KEY = 'z_i$-v_3v&tkk#^_q(vov6ptnvbpzs4p=3tu6=5b^0y13mzs2t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','192.241.158.48']
+ALLOWED_HOSTS = []
 
 #para que encuentre las imagenes subidas a media:
 MEDIA_ROOT = os.path.join(BASE_DIR, 'admon')
